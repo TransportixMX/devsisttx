@@ -33,7 +33,7 @@ $config['view'] = [
 
 // Route
 $config['route'] = [
-    'default_page' => 'home', // Default first page route
+    'default_page' => 'login', // Default first page route
     'login_success' => 'page/home' // Default redirect after success logedin
 ];
 
@@ -89,7 +89,7 @@ $config['timezone'] = 'Asia/Kolkata';
 # red-light
 # black
 # black-light
-$config['skin'] = 'red'; // selected skin
+$config['skin'] = 'blue'; // selected skin
 
 $config['google_recaptcha'] = [
     'site_key' => '6LeTSh8UAAAAAOXygATUlkTAFwdJuxecYZ8WzrwY',
@@ -99,10 +99,10 @@ $config['google_recaptcha'] = [
 // optional features feel free to enable or disable this features in your web app
 $config['features'] = [
     'google_recaptcha' => false,
-    'login_via_facebook' => true,
-    'login_via_google' => true,
-    'login_via_twitter' => true,
-    'login_via_linkedin' => true,
+    'login_via_facebook' => false,
+    'login_via_google' => false,
+    'login_via_twitter' => false,
+    'login_via_linkedin' => false,
     'disable_all_social_logins' => false
 ];
 
