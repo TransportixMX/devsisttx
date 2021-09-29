@@ -28,17 +28,17 @@
     <?php endif ?>
     <div class="row">
       <div class="col-xs-8">
-        <div class="checkbox icheck">
+    <!--    <div class="checkbox icheck">
           <label>
             <input name="remember" type="checkbox" value="1"> <?php echo lang('login_remember_label') ?>
           </label>
-        </div>                    
+        </div> -->                    
       </div><!-- /.col -->
       <div class="col-xs-4">
         <input type="submit" class="btn btn-primary btn-block btn-flat" id="loginBtn" value="<?php echo lang('login_submit_btn') ?>" />
       </div><!-- /.col -->
     </div>
-    <div class="social-auth-links text-center">
+    <!--<div class="social-auth-links text-center">
       <?php if ($features['disable_all_social_logins'] == false): ?>
         <p>- <?php echo lang('or') ?> -</p>
       <?php endif ?>
@@ -56,14 +56,10 @@
           <a href="<?php echo $linkedin ?>" class="btn btn-block btn-social btn-linkedin btn-flat"><i class="fa fa-linkedin"></i> <?php echo lang('signin_using') ?> LinkedIn</a>
         <?php endif ?>
       <?php endif ?>
-    </div>
+    </div> -->
     <?php echo form_close(); ?>
-    <a href="<?php echo site_url('forgot-password') ?>" title="Sign Up"><?php echo lang('login_forgot_password') ?></a><br>
-    <a href="<?php echo site_url('register') ?>" title="Sign Up"><?php echo lang('register_new') ?></a>
+   <!-- <a href="<?php echo site_url('forgot-password') ?>" title="Sign Up"><?php echo lang('login_forgot_password') ?></a><br>
+    <a href="<?php echo site_url('register') ?>" title="Sign Up"><?php echo lang('register_new') ?></a> -->
   </div><!-- /.login-box-body -->
-  <br>
-  <div class="callout callout-info">
-    <h4>Demo Login</h4>
-    <p>Email : <strong>admin@admin.com</strong><br>Password : <strong>password</strong></p>
-  </div>
+  
 </div><!-- /.login-box -->
