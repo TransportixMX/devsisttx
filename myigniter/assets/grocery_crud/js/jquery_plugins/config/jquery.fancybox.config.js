@@ -1,3 +1,0 @@
-$(function(){
-	$('.image-thumbnail').fancybox();	
-});	
