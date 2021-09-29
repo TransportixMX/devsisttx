@@ -11,7 +11,7 @@ $config['version'] = '4.0.3'; // myigniter version
 
 // Site
 $config['site'] = [
-    'title' => 'myIgniter', // Default Title entire page
+    'title' => 'DevPanel | InterZONE', // Default Title entire page
     'favicon' => 'assets/img/favicon-96x96.png', // Default Favicon
     'logo' => 'assets/img/logo/myIgniter.png' // Default Logo
 ];

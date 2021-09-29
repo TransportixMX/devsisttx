@@ -67,10 +67,10 @@ $query_builder = TRUE;
 // Default myIgniter
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	'database' => '',
+	'hostname' => '3.21.46.100',
+	'username' => 'vyxer',
+	'password' => '110315',
+	'database' => 'dbsTTX',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
