@@ -83,7 +83,7 @@ $config['url_suffix'] = '';
 | than english.
 |
 */
-$config['language']	= 'english';
+$config['language']	= 'spanish';
 
 /*
 |--------------------------------------------------------------------------
@@ -312,7 +312,7 @@ $config['cache_query_string'] = FALSE;
 | MUST set an encryption key.  See the user guide for info.
 |
 */
-$config['encryption_key'] = 'kotaxdev';
+$config['encryption_key'] = 'sttx';
 
 /*
 |--------------------------------------------------------------------------
@@ -355,7 +355,7 @@ $config['encryption_key'] = 'kotaxdev';
 |
 */
 $config['sess_driver']          = 'files';
-$config['sess_cookie_name']		= 'kotaxdev_session';
+$config['sess_cookie_name']		= 'sttx_session';
 $config['sess_expiration']		= 7200;
 $config['sess_save_path']       = FCPATH . 'application/cache/session';
 $config['sess_use_database']	= FALSE;
@@ -413,8 +413,8 @@ $config['global_xss_filtering'] = TRUE;
 | 'csrf_exclude_uris' = Array of URIs which ignore CSRF checks
 */
 $config['csrf_protection'] = TRUE;
-$config['csrf_token_name'] = '__kotaxdev_token';
-$config['csrf_cookie_name'] = '__kotaxdev_token';
+$config['csrf_token_name'] = '__sttx_token';
+$config['csrf_cookie_name'] = '_sttx_token';
 $config['csrf_expire'] = 7200;
 $config['csrf_regenerate'] = FALSE;
 $config['csrf_exclude_uris'] = array();
