@@ -34,7 +34,7 @@ $config['view'] = [
 // Route
 $config['route'] = [
     'default_page' => 'login', // Default first page route
-    'login_success' => 'page/home' // Default redirect after success logedin
+    'login_success' => 'myigniter/dashboard' // Default redirect after success logedin
 ];
 
 // Email Configuration
